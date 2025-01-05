@@ -43,7 +43,7 @@ def prompt_recursively(initial_image_path: str, *prompt_list: List[str]):
 
         # Each iteration will have the previous image as the input
         prev_image_path = current_image_path
-        gen_image_path = f"{EXAMPLES_DIR}/{prompt_key}.{prompt_id}.g.png"
+        gen_image_path = f"{OUT_DIR}/{prompt_key}.{prompt_id}.g.png"
             
         # Load image
         print(f"[{prompt_id}]: Loading image {prev_image_path} ...")
