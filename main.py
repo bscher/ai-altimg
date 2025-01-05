@@ -1,7 +1,12 @@
-import src
-
 import os
 # import argparse
+import sys
+
+# Type hints are saving Python's future...
+assert (3, 6) <= sys.version_info[:2], "Python 3.6 or greater is required."
+
+# This library
+import src
 
 THIS_PATH =  os.path.realpath(__file__)
 THIS_DIR = os.path.dirname(THIS_PATH)
