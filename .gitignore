@@ -1,0 +1,9 @@
+.venv/
+.vscode/
+
+generated/
+__pycache__/
+tmp/
+
+*.pyc
+*.pyo
