@@ -14,12 +14,9 @@ EXAMPLES_DIR = os.path.realpath(f"{THIS_DIR}/examples")
 
 def temp_example():
     src.recursive_prompts.prompt_recursively(
-        os.path.join(THIS_DIR, "examples", "valley_and_sky.png"),
-        "Transform this image into a simple children's drawing.",
-        "Make this image simpler.",
-        "Make this image simpler.",
-        "Make this image simpler.",
-        "Restrict this image to only use solid black and solid white."
+        os.path.join(EXAMPLES_DIR, "valley_and_sky.png"),
+        "Transform into a silhouette of the original image.",
+        "Restrict to only solid black and solid white.",
     )
 
 def main():
