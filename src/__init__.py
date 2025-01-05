@@ -1,1 +1,1 @@
-from . import example
+from . import recursive_prompts
