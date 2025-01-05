@@ -13,6 +13,7 @@ OUT_DIR = os.path.abspath(f"{THIS_DIR}/../out")
 MODEL_NAME = "timbrooks/instruct-pix2pix"  # Model for image manipulation
 
 def prompt_recursively(initial_image_path: str, *prompt_list: List[str]):
+    os.makedirs(OUT_DIR, exist_ok=True)
 
     # Check if initial image exists
     initial_image_path = os.path.abspath(initial_image_path)

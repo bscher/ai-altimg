@@ -1,7 +1,10 @@
+.venv
 .venv/
+.vscode
 .vscode/
 
-generated/
+out/
+
 __pycache__/
 tmp/
 
